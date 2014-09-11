@@ -1,0 +1,25 @@
+AllCops:
+  Includes:
+    - metadata.rb
+    - Gemfile
+    - attributes/**
+    - libraries/**
+    - providers/**
+    - recipes/**
+    - resources/**
+    - spec/*.rb
+
+Encoding:
+  Exclude:
+    - metadata.rb
+    - Gemfile
+    - berks-cookbooks/**
+
+NumericLiterals:
+  Enabled: false
+
+LineLength:
+  Enabled: false
+
+WordArray:
+  MinSize: 3

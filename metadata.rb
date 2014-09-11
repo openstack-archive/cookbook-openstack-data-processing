@@ -1,0 +1,11 @@
+name             'openstack-data-processing'
+maintainer       'Numergy'
+maintainer_email 'pierre.padrixe@numergy.com'
+license          'Apache 2.0'
+description      'The OpenStack Data Processing service Sahara.'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '10.0.0'
+
+%w{ ubuntu redhat suse }.each do |os|
+  supports os
+end
