@@ -2,6 +2,26 @@
 
 This cookbook uses [bundler](http://gembundler.com/) and [berkshelf](http://berkshelf.com/) to isolate dependencies.
 
+## Using Rake ##
+
+Make sure you have `ruby 1.9.x`, `bundler`, `rake`, build essentials and the header files for `gecode` installed before continuing. Make sure that you're using gecode version 3. More info [here](https://github.com/opscode/dep-selector-libgecode/tree/0bad63fea305ede624c58506423ced697dd2545e#using-a-system-gecode-instead).
+
+We have three test suites which you can run either, individually (there are three rake tasks):
+
+    $ rake lint
+    $ rake style
+    $ rake unit
+
+or altogether:
+
+    $ rake test
+
+The `rake` tasks will take care of installing the needed gem dependencies and cookbooks with `berkshelf`.
+
+## Using Berkshelf directly ##
+
+``Rake`` simplifies the use of ``berkshelf``, you can still use ``berkshelf`` directly but it will require more substantial efforts:
+
 To setup the dependencies:
 
     $ bundle install --path=.bundle # install gem dependencies
