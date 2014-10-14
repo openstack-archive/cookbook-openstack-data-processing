@@ -1,6 +1,6 @@
 name             'openstack-data-processing'
-maintainer       'Numergy'
-maintainer_email 'pierre.padrixe@numergy.com'
+maintainer       'openstack-chef'
+maintainer_email 'opscode-chef-openstack@googlegroups.com'
 license          'Apache 2.0'
 description      'The OpenStack Data Processing service Sahara.'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
