@@ -1,10 +1,9 @@
 .bundle/
-.cookbooks/
+berks-cookbooks/
 .kitchen
 .vagrant
 .coverage/
-berks-cookbooks/
 *.swp
 Berksfile.lock
-Gemfile.lock
 Vagrantfile
+Gemfile.lock
