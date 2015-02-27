@@ -5,6 +5,4 @@
 .coverage/
 berks-cookbooks/
 *.swp
-Berksfile.lock
-Gemfile.lock
 Vagrantfile
