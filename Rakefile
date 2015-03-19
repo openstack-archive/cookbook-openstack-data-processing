@@ -12,7 +12,7 @@ task :berks_prep => :bundler_prep do
 end
 
 task :lint => :bundler_prep do
-  sh %{bundle exec foodcritic --epic-fail any --tags ~FC003 --tags ~FC023 .cookbooks/openstack-data-processing}
+  sh %{bundle exec foodcritic --epic-fail any --tags ~FC003 --tags ~FC023 .}
 end
 
 task :style => :bundler_prep do
