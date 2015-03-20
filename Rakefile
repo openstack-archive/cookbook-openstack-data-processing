@@ -8,25 +8,25 @@ task :bundler_prep do
 end
 
 task :berks_prep => :bundler_prep do
-  sh %{bundle exec berks vendor .cookbooks}
+  sh %{bundle exec berks vendor}
 end
 
 task :lint => :bundler_prep do
-  sh %{bundle exec foodcritic --epic-fail any --tags ~FC003 --tags ~FC023 .cookbooks/openstack-data-processing}
+  sh %{bundle exec foodcritic --epic-fail any --tags ~FC003 --tags ~FC023 .}
 end
 
 task :style => :bundler_prep do
-  sh %{bundle exec rubocop .cookbooks/openstack-data-processing}
+  sh %{bundle exec rubocop}
 end
 
 task :unit => :berks_prep do
-  sh %{bundle exec rspec --format documentation .cookbooks/openstack-data-processing/spec}
+  sh %{bundle exec rspec --format documentation}
 end
 
 task :clean do
   rm_rf [
     '.bundle',
-    '.cookbooks/openstack-data-processing',
+    'berks-cookbooks',
     'Gemfile.lock',
     'Berksfile.lock'
   ]
