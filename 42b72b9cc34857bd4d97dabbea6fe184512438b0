@@ -1,0 +1,8 @@
+Verified+2: Jenkins
+Workflow+1: Mark Vanderwiel <vanderwl@us.ibm.com>
+Code-Review+2: JJ Asghar <jj@getchef.com>
+Submitted-by: Jenkins
+Submitted-at: Wed, 29 Apr 2015 14:18:52 +0000
+Reviewed-on: https://review.openstack.org/178261
+Project: stackforge/cookbook-openstack-data-processing
+Branch: refs/heads/master
