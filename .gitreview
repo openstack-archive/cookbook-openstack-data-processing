@@ -1,5 +1,5 @@
 [gerrit]
 host=review.openstack.org
 port=29418
-project=stackforge/cookbook-openstack-data-processing.git
+project=openstack/cookbook-openstack-data-processing.git
 defaultbranch=stable/juno
