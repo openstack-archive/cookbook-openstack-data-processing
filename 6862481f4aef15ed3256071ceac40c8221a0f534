@@ -1,0 +1,9 @@
+Verified+2: Jenkins
+Code-Review+2: Mark Vanderwiel <vanderwl@us.ibm.com>
+Code-Review+2: Zhiwei Chen <zhiwchen@cn.ibm.com>
+Workflow+1: Zhiwei Chen <zhiwchen@cn.ibm.com>
+Submitted-by: Jenkins
+Submitted-at: Sun, 30 Aug 2015 14:40:14 +0000
+Reviewed-on: https://review.openstack.org/217902
+Project: openstack/cookbook-openstack-data-processing
+Branch: refs/heads/master
