@@ -1,0 +1,8 @@
+Verified+2: Jenkins
+Workflow+1: JJ Asghar <jj@getchef.com>
+Code-Review+2: Samuel Cassiba <sam@cassiba.com>
+Submitted-by: Jenkins
+Submitted-at: Mon, 31 Aug 2015 23:18:13 +0000
+Reviewed-on: https://review.openstack.org/217883
+Project: openstack/cookbook-openstack-data-processing
+Branch: refs/heads/stable/kilo
