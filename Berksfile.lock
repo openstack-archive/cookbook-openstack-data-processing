@@ -1,0 +1,7 @@
+DEPENDENCIES
+  openstack-data-processing
+    path: .
+    metadata: true
+
+GRAPH
+  openstack-data-processing (12.0.0)
